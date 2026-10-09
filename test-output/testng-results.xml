@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="9" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-09T20:56:42 IST" name="Default suite" finished-at="2026-10-09T20:59:03 IST" duration-ms="141560">
+    <groups>
+    </groups>
+    <test started-at="2026-10-09T20:56:42 IST" name="Default test" finished-at="2026-10-09T20:59:03 IST" duration-ms="141560">
+      <class name="testPkg.CartTest">
+        <test-method is-config="true" signature="urlLoading()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:56:38 IST" name="urlLoading" finished-at="2026-10-09T20:56:42 IST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLoading -->
+        <test-method signature="VerifyButtons()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:56:42 IST" name="VerifyButtons" finished-at="2026-10-09T20:56:51 IST" duration-ms="9257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyButtons -->
+        <test-method signature="VerifyInvalidData()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:56:51 IST" name="VerifyInvalidData" finished-at="2026-10-09T20:56:58 IST" duration-ms="6735" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid data are accept  ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid data are accept  
+at org.testng.Assert.fail(Assert.java:111)
+at testPkg.CartTest.VerifyInvalidData(CartTest.java:941)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidData -->
+        <test-method signature="VerifyLabels()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:56:58 IST" name="VerifyLabels" finished-at="2026-10-09T20:57:05 IST" duration-ms="7066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLabels -->
+        <test-method signature="VerifyMandatoryFieldData()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:57:05 IST" name="VerifyMandatoryFieldData" finished-at="2026-10-09T20:57:13 IST" duration-ms="7728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMandatoryFieldData -->
+        <test-method signature="VerifyNullData()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:57:13 IST" name="VerifyNullData" finished-at="2026-10-09T20:57:19 IST" duration-ms="6649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNullData -->
+        <test-method signature="VerifyOrderCloseicon()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:57:19 IST" name="VerifyOrderCloseicon" finished-at="2026-10-09T20:57:24 IST" duration-ms="5088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderCloseicon -->
+        <test-method signature="VerifyOrderPopup()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:57:24 IST" name="VerifyOrderPopup" finished-at="2026-10-09T20:57:29 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderPopup -->
+        <test-method signature="VerifyPlaceOrderWithEmptyCart()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:57:29 IST" name="VerifyPlaceOrderWithEmptyCart" finished-at="2026-10-09T20:57:35 IST" duration-ms="5551" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User should not be able to place an order with an empty cart]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User should not be able to place an order with an empty cart
+at org.testng.Assert.fail(Assert.java:111)
+at testPkg.CartTest.VerifyPlaceOrderWithEmptyCart(CartTest.java:1134)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPlaceOrderWithEmptyCart -->
+        <test-method signature="VerifyTextbox()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:57:35 IST" name="VerifyTextbox" finished-at="2026-10-09T20:57:39 IST" duration-ms="4195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTextbox -->
+        <test-method signature="AddToCart()[pri:1, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:57:39 IST" name="AddToCart" finished-at="2026-10-09T20:58:36 IST" duration-ms="57042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="PlaceOrder()[pri:2, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:58:36 IST" name="PlaceOrder" finished-at="2026-10-09T20:58:42 IST" duration-ms="6180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder -->
+        <test-method signature="CheckPrice()[pri:3, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:58:42 IST" name="CheckPrice" finished-at="2026-10-09T20:58:57 IST" duration-ms="14641" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cart Amount Verification Failed  ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cart Amount Verification Failed  
+at org.testng.Assert.fail(Assert.java:111)
+at testPkg.CartTest.CheckPrice(CartTest.java:316)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPrice -->
+        <test-method signature="RemoveItem()[pri:4, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:58:57 IST" name="RemoveItem" finished-at="2026-10-09T20:59:03 IST" duration-ms="6127" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cart is empty. No products available. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cart is empty. No products available. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testPkg.CartTest.RemoveItem(CartTest.java:358)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItem -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testPkg.CartTest@367ffa75]" started-at="2026-10-09T20:59:03 IST" name="close" finished-at="2026-10-09T20:59:04 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testPkg.CartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
